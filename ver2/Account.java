@@ -20,11 +20,11 @@ public class Account {
 		this("Unknown",balance);
 	}
 	
-	public Account(String name,double balance)
-	{
-		this.balance = balance;
-		this.name = name;
-	}
+	// public Account(String name,double balance)
+	// {
+	// 	this.balance = balance;
+	// 	this.name = name;
+	// }
 
 	// A "getter" method that simply returns the balance.
 	public double getBalance() {

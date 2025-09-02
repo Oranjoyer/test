@@ -1,7 +1,9 @@
 package ver2;
 
 public class Account {
+	
 	// Instance variable, only available inside this class.
+	//New Comment for Balance
 	private double balance;
 	private String name;
 	
@@ -23,6 +25,7 @@ public class Account {
 		this.balance = balance;
 		this.name = name;
 	}
+
 	// A "getter" method that simply returns the balance.
 	public double getBalance() {
 		return balance;
